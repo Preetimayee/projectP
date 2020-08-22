@@ -93,8 +93,8 @@ while True:
           os.system("start chrome linkedin.com") 
 
     elif (("run" in p) or ("open" in p) or ("execute" in p ) or ("upload" in p)) and ("instagram" in p):
-          pyttsx3.speak("lunching instagram")
-          os.system("start chrome instagram.com") 
+        pyttsx3.speak("lunching instagram")
+        os.system("start chrome instagram.com") 
 
  
     elif (("run" in p) or ("open" in p) or  ("execute" in p ) or ("upload" in p)) and (("amazon" in p) or ("amazon shopping" in p)): 
@@ -120,8 +120,8 @@ while True:
 
 
     elif  ("exit" in p)  or ("quit" in p) or ("close" in p)
-	  pyttsx3.speak("thanks for using this se rvices")
-          break    
+        pyttsx3.speak("thanks for using this se rvices")
+        break    
 
     else: 
         pyttsx3.speak("please try again using correct command")   
